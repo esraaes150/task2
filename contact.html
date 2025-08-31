@@ -3,14 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <p>You can reach us via email, phone, or by filling out the reservation form below.</p>
-    <p>Email us directly: 
-      <a href="mailto:info@deliciousrestaurant.com">info@deliciousrestaurant.com</a>
+  <h1 id="contact-h1">Contact Me</h1>
+  <nav id="nav-con">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="index.html#destinations">Destinations</a></li>
+      <li><a href="index.html#tips">Tips</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <p id="contact-intro">
+    Have questions, suggestions, or just want to say hi?  
+    Fill out the form below or reach me directly through the info provided.
+  </p>
+
+  <form id="form">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" placeholder="Enter your name">
+
+    <label for="email">Your Email</label>
+    <input type="email" id="email" placeholder="Enter your email">
+
+    <label for="message">Your Message</label>
+    <textarea id="message" rows="5" placeholder="Write your message..."></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="contact-info">
+    <p><strong>Email:</strong> travel@mydiary.com</p>
+    <p><strong>Phone:</strong> +123 456 7890</p>
+    <p><strong>Follow me:</strong> 
+      <a href="#">Instagram</a> | 
+      <a href="#">Facebook</a> | 
+      <a href="#">Twitter</a>
     </p>
-    <p>Call us: +1 234 567 890</p>
+  </div>
+  <footer>
+    <p>© 2025 My Travel Diary | <a href="index.html#top">Back to top</a></p>
+  </footer>
 </body>
 </html>
